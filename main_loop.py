@@ -34,7 +34,7 @@ def main_loop(robot):
                         print("Add Failed, maybe the foodcontainer is empty.")
                     else:
                         robot.SaveTimeRecord('dog')
-        time.sleep(2)  # scan for every 5 seconds
+        time.sleep(2)  # scan for every 2 seconds
 
 server = Server()
 print("Sever builded.")
